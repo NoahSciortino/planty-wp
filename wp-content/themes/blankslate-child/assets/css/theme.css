@@ -1,0 +1,19 @@
+/*GENERAL*/
+:root {
+    --main-color: #E44444; /* var(--main-color) */
+    --second-color: #CD487B; /* var(--second-color) */
+    --light-grey-color: #EDEDED; /* var(--light-grey-color) */
+    --drak-grey-color: #4B4B4B; /* var(--drak-grey-color) */
+  }
+  
+  body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      font-family: 'Syne', sans-serif;
+  }
+
+  /*header*/
+  #site-title img {
+    height: 40px;
+}
