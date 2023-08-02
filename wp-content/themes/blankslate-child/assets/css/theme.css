@@ -1,9 +1,10 @@
 /*GENERAL*/
 :root {
-    --main-color: #E44444; /* var(--main-color) */
-    --second-color: #CD487B; /* var(--second-color) */
-    --light-grey-color: #EDEDED; /* var(--light-grey-color) */
-    --drak-grey-color: #4B4B4B; /* var(--drak-grey-color) */
+    --background-white-color: #FFF; /* var(--background-white-color) */
+    --button-color: #DC9F96; /* var(--button-color) */
+    --button-color-hover: #C02E44; /* var(--button-color-hover) */
+    --background-color: #ECE2DA; /* var(--background-color) */
+    --text-color: #000000; /* var(--text-color) */
   }
   
   body {
@@ -11,9 +12,95 @@
       display: flex;
       justify-content: center;
       font-family: 'Syne', sans-serif;
+      background: var(--background-color);
   }
 
   /*header*/
   #site-title img {
-    height: 40px;
+    width: 201px;
+    height: 19px;
+    flex-shrink: 0;
+    position: relative;
+    top: 31px;
+    left: 37px;
+  }
+  /*menu header*/
+  .menu-header-menu-container {
+    position: relative;
+    left: 1077px;
+    display: flex;
+    width: 114px;
+    height: 19px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    top: 9px;
+}
+
+  header {
+    background: var(--background-white-color);
+    width: 1440px;
+    height: 80px;
+    flex-shrink: 0;
+  }
+
+  /*Header button*/
+  
+  .Hbutton {
+  width: 236px;
+  height: 80px;
+  flex-shrink: 0;
+  background: var(--button-color);
+  color: #FFF;
+  text-align: center;
+  font-family: Syne;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: 0px;
+  position: relative;
+  left: 1204px;
+  bottom: 41px;
+  }
+
+  .Hbutton:hover {
+  background-color: var(--button-color-hover);
+  cursor:pointer;
+  }
+
+/*lien*/
+a:hover  {
+  color: var(--text-color);
+  display: flex;
+  width: 142px;
+  height: 19px;
+  padding: 1px 14px 2px 12px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  font-weight: bold;
+  text-decoration:none;
+  color: var(--text-color);
+  font-family: 'Syne';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+a {
+  display: flex;
+  width: 114px;
+  height: 19px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--text-color);
+  font-family: 'Syne';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration:none;
 }
