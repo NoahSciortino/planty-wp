@@ -5,6 +5,7 @@
     --button-color-hover: #C02E44; /* var(--button-color-hover) */
     --background-color: #ECE2DA; /* var(--background-color) */
     --text-color: #000000; /* var(--text-color) */
+    --main-color: #3B8E46; /* var(--main-color) */
   }
   
   body {
@@ -103,4 +104,46 @@ a {
   font-weight: 400;
   line-height: normal;
   text-decoration:none;
+}
+
+/*Footer*/
+Footer{
+  background: var(--background-white-color);
+  display: flex;
+  width: 1440px;
+  height: 60px;
+  padding: 20px 0px 21px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.footertxt{
+  color: var(--text-color);
+  text-align: center;
+  font-family: Syne;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*front-page*/
+h1{
+color: var(--main-color);
+text-align: center;
+font-family: Syne;
+font-size: 38px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.accueil{
+  width: 1307px;
+  height: 950px;
+  flex-shrink: 0;
+  display: flex;
+  margin-top: 83px;
 }
