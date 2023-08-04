@@ -106,6 +106,10 @@ a {
   text-decoration:none;
 }
 
+li.current_page_item a{
+  font-weight: 700;
+}
+
 /*Footer*/
 Footer{
   background: var(--background-white-color);
