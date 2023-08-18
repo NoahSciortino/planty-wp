@@ -2,7 +2,7 @@
 <?php get_sidebar(); ?>
 </div>
 <footer id="footer" role="contentinfo">
-<p class="footertxt">Mentions légales</p>
+<a class="footertxt" href="<?php echo home_url("/"); ?>/privacy-policy/">Mentions légales</a>
 </footer>
 </div>
 <?php wp_footer(); ?>

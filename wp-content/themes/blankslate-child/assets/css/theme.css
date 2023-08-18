@@ -9,179 +9,106 @@
   }
   
   body {
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      font-family: 'Syne', sans-serif;
+      font-family: Syne;
       background: var(--background-white-color);
+    width: auto;
   }
 
   /*header*/
-  #site-title img {
-    width: 201px;
-    height: 19px;
-    flex-shrink: 0;
-    position: relative;
-    top: 31px;
-    left: 37px;
-  }
-  /*menu header*/
-  .menu-header-menu-container {
-    position: relative;
-    left: 1077px;
-    display: flex;
-    width: 114px;
-    height: 19px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    top: 9px;
+header {
+  background: var(--background-white-color);
 }
 
-  header {
-    background: var(--background-white-color);
-    width: 1440px;
-    height: 80px;
-    flex-shrink: 0;
-  }
+.logo {
+  width: 20%;
+  margin-top: 30px;
+}
 
-  #menu-header-menu li{
-    display: inline-block;
-    padding: 10px 30px;
-  }
+#site-title img {
+  width: 100%;
+}
+
+  /*menu header*/
+ #menu {
+  width: 60%;
+  text-align: right;
+ }
 
   /*Header button*/
-  
-  .Hbutton {
-  width: 236px;
-  height: 80px;
-  flex-shrink: 0;
-  background: var(--button-color);
-  color: var(--background-white-color);
-  text-align: center;
-  font-family: Syne;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  border: 0px;
-  position: relative;
-  left: 1204px;
-  bottom: 41px;
+  .commander {
+    padding: 9px 57px 9px 56px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px;
+    color: var(--background-white-color);
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    background: var(--button-color);
+    width: 20%;
+    margin-left: 80%;
   }
 
-  .Hbutton:hover {
-  background-color: var(--button-color-hover);
-  cursor:pointer;
+  .commander:hover{
+    background-color: var(--button-color-hover);
   }
 
 /*lien*/
-a:hover  {
+#menu-header-menu a {
   color: var(--text-color);
-  display: flex;
-  width: 142px;
-  height: 19px;
-  padding: 1px 14px 2px 12px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  font-weight: bold;
   text-decoration:none;
+}
+
+#menu-header-menu a:hover {
   color: var(--text-color);
-  font-family: 'Syne';
   font-size: 13px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-a {
-  display: flex;
-  width: 114px;
-  height: 19px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  color: var(--text-color);
-  font-family: 'Syne';
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration:none;
-}
-
-li.current_page_item a{
   font-weight: 700;
 }
 
 /*Footer*/
 Footer{
   background: var(--background-white-color);
-  display: flex;
-  width: 1440px;
-  height: 60px;
-  padding: 20px 0px 21px 0px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
 }
 
 .footertxt{
   color: var(--text-color);
-  text-align: center;
-  font-family: Syne;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  text-decoration: none;
+  margin-left: 50%;
 }
 
 /*front-page*/
 
 .accueil{
-  width: 1440px;
-  height: 594px;
-  flex-shrink: 0;
-  display: flex;
   background: var(--background-color);
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
   box-shadow: 0px 10px 0px #E3D9D0
 
 }
 
 .h1title {
-  position: relative;
-  top: 85px;
-  left: 300px;
   color: var(--main-color);
-  text-align: center;
-  font-family: Syne;
-  font-size: 38px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
   text-transform: uppercase;
+  font-weight: 800;
+  font-size: 38px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.divimage {
+
 }
 
 .feuille {
-  position: relative;
-  right: 314px;
-  top: 192px;
+
 }
 
 .canette {
-  position: relative;
-  right: 419px;
-  top: 70px;
+
   z-index: 2;
 }
 
 .feuille2 {
-  position: relative;
-  right: 535px;
-  top: 185px;
+
 }
 
 .h2plant {
@@ -198,26 +125,18 @@ Footer{
 .txt {
   color: var(--text-color);
   text-align: center;
-  font-family: Syne;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  width: 382px;
-  position: relative;
-  left: 520px;
-  margin-top: 47px;
-  margin-bottom: 55px;
+  margin-bottom: 80px;
+  margin-left: 37%;
+  margin-top: 30px;
+  width: 25%;
 }
 
 .divgouts {
-  width: 1440px;
-  height: 594px;
-  flex-shrink: 0;
-  display: flex;
   background: var(--background-color);
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%;
+   border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+
 }
 
 .titlegouts {
@@ -225,51 +144,111 @@ Footer{
   text-align: center;
   font-family: Syne;
   font-size: 30px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
+  padding-top: 58px;
   text-transform: uppercase;
-  position: relative;
-  top: 57px;
-  left: 576px;
   }
 
   .txtgouts {
-  color: var(--text-color);
-  text-align: center;
-  font-family: Syne;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  position: relative;
-  top: 101px;
-  left: 171px;
+    color: var(--text-color);
+    text-align: center;
+    font-family: Syne;
+    font-size: 20px;
+  }
+
+  .gouts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 58px;
+    margin-left: 32%;
+    margin-top: 50px;
+  }
+
+  .fraise {
+    background-image: url("../images/fraise.png");
+    width: 393px;
+    height: 262px;
+  }
+
+  .fraisetxt{
+    color: var(--background-white-color);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 105px;
+  }
+
+  .pamplemousse {
+    background-image: url("../images/pamplemousse.png");
+    width: 393px;
+    height: 262px;
+  }
+
+  .pamplemoussetxt{
+    color: var(--background-white-color);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  .pamplemoussetxt2{
+    color: var(--background-white-color);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .framboise {
+    background-image: url("../images/framboise.png");
+    width: 393px;
+    height: 262px;
+  }
+ 
+  .framboisetxt{
+    color: var(--background-white-color);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 80px;
+    text-transform: uppercase;
+  }
+
+  .framboisetxt2{
+    color: var(--background-white-color);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .citron {
+    background-image: url("../images/citron.png");
+    width: 393px;
+    height: 262px;
+  }
+
+  .citrontxt{
+    color: var(--background-white-color);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 105px;
+    text-transform: uppercase;
   }
 
   .buttongouts {
-  display: flex;
-  width: 198px;
-  height: 55px;
-  padding: 9px 57px 9px 56px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: 5px;
-  background: #E0B9B4;
-  box-shadow: 0px 0px 0px;
-  color: var(--background-white-color);
-  border:0px;
-  text-align: center;
-  font-family: Syne;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 37px;
-  position: relative;
-  top: 485px;
-  right: 200px;
-  cursor: pointer;
+    padding: 9px 57px 9px 56px;
+    border-radius: 5px;
+    background: #E0B9B4;
+    box-shadow: 0px 0px 0px;
+    color: var(--background-white-color);
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
   }
 
   .buttongouts:hover{
@@ -277,61 +256,38 @@ Footer{
   }
 
   .divavis{
-  width: 1440px;
-  height: 638px;
   }
 
   .h2avis {
-  color: var(--main-color);
-  text-align: center;
-  font-family: Syne;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  text-transform: uppercase;
-  position: relative;
-  top: 133px;
-
+    margin-top: 133px;
+    color: var(--main-color);
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .divavis1{
+    width: 30%;
   }
 
   .h3avis {
-    color: var(--main-color);
-    text-align: center;
-    font-family: Syne;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: relative;
-    top: 271px;
-    right: 420px;
+
+  }
+
+  .divavis2{
+    width: 30%;
   }
 
   .h3avis2 {
-    color: var(--main-color);
-    text-align: center;
-    font-family: Syne;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: relative;
-    top: 234px;
-    right: 0px;
+
+  }
+  
+  .divavis3{
+    width: 30%;
   }
 
   .h3avis3 {
-    color: var(--main-color);
-    text-align: center;
-    font-family: Syne;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: relative;
-    top: 200px;
-    left: 410px;
+
   }
 
   /*canette*/

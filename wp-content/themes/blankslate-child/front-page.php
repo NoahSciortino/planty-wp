@@ -3,6 +3,7 @@
 <main>
 <div class="accueil">
  <h1 class=h1title >BOISSON ÉNERGISANTE 100% naturelle</h1>
+ <div class="divimage">
  <svg class=feuille width="350" height="401" viewBox="0 0 350 401" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M239.339 330.288C226.497 319.911 222.873 307.308 222.63 302.197C227.176 299.856 239.847 296.787 255.256 302.72C270.853 308.726 272.864 323.79 271.939 330.655C266.455 334.89 252.34 340.793 239.339 330.288Z" fill="#3B8E46"/>
     <path d="M222.962 303.197C222.738 303.068 222.662 302.782 222.791 302.559L223.024 302.155C223.153 301.932 223.438 301.855 223.662 301.984L279.427 334.181L278.727 335.393L222.962 303.197Z" fill="#3B8E46"/>
@@ -72,6 +73,7 @@
     <path d="M75.5001 400.076C67.1667 344.076 68.7001 215.576 141.5 149.576C167.5 126.409 231.4 82.8758 279 94.0758" stroke="#3D9448" stroke-width="5"/>
 </svg>
 </div>
+</div>
 <h2 class=h2plant>L’énergie des plantes</h2>
 <p class=txt> Planty, c’est la première boisson
 énergisante composée à 100 % de produits naturels. 
@@ -81,15 +83,39 @@ Avec son goût frais et fruité, retrouvez votre
 <div class=divgouts>
 <h3 class=titlegouts>LES Goûts</h3>
 <p class=txtgouts>Nous avons une saveur pour chaque moment de votre journée.</p>
-<form action="<?php echo home_url("/"); ?>/commander/">
-<button type="submit" class=buttongouts >Commander</button>
-</form>
+<div class=gouts>
+    <div class=fraise>
+        <P class=fraisetxt>FRAISE</p>
+    </div>
+    <div class=pamplemousse>
+        <P class=pamplemoussetxt>pample</p>
+        <P class=pamplemoussetxt2>mousse</p>
+    </div>
+    <div class=framboise>
+        <P class=framboisetxt>fram</p>
+        <P class=framboisetxt2>boise</p>
+    </div>
+    <div class=citron>
+        <P class=citrontxt>citron</p>
+    </div>
+</div>
+<a class=buttongouts action="<?php echo home_url("/"); ?>/commander/">Commander</a>
 </div>
 <div class=divavis>
 <h2 class=h2avis>CE QU’ILS EN PENSENT</h2>
-<h3 class=h3avis>Fatiha</h3>
-<h3 class=h3avis2>Véro</h3>
-<h3 class=h3avis3>Marc</h3>
+<div class=divavis1>
+<img src="/assets/images/fatiha.png" alt="Fatiha" />
+    <h3 class=h3avis>Fatiha</h3>
+    <p>La meilleure boisson énergisante disponible sur le marché !</p>
+</div>
+<div class=divavis2>
+    <h3 class=h3avis2>Véro</h3>
+    <p>Frais & fruité c’est parfait pour accompagner le goûter.</p>
+</div>
+<div class=divavis3>
+    <h3 class=h3avis3>Marc</h3>
+    <p>Un boost d’énergie sans produits chimiques, un vrai plus dans ma journée.</p>
+</div>
 </div>
 
 <?php include "includes/cans.php";?>

@@ -21,9 +21,9 @@
          <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
             <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
          </nav>
-         <form action="<?php echo home_url("/"); ?>/commander/">
-         <button class="Hbutton" type="submit">Commander</a>
-         </form>
+         <div class="commander">
+         <a href="<?php echo home_url("/"); ?>/commander/">Commander</a>
+</div>
       </header>
       <div id="container">
         <main id="content" role="main">
