@@ -17,21 +17,24 @@
   /*header*/
 header {
   background: var(--background-white-color);
+  display: flex;
 }
 
-.logo {
+#branding {
   width: 20%;
-  margin-top: 30px;
 }
 
 #site-title img {
   width: 100%;
+  max-width: 201px;
+  height: auto;
 }
 
   /*menu header*/
  #menu {
   width: 60%;
   text-align: right;
+  padding-right: 1rem;
  }
 
   /*Header button*/
@@ -45,7 +48,6 @@ header {
     cursor: pointer;
     background: var(--button-color);
     width: 20%;
-    margin-left: 80%;
   }
 
   .commander:hover{
@@ -58,6 +60,12 @@ header {
   text-decoration:none;
 }
 
+#menu-header-menu li {
+  display: inline-block;
+  margin-right: 2rem;
+
+}
+
 #menu-header-menu a:hover {
   color: var(--text-color);
   font-size: 13px;
@@ -65,14 +73,14 @@ header {
 }
 
 /*Footer*/
-Footer{
+footer{
   background: var(--background-white-color);
+  text-align: center;
 }
 
 .footertxt{
   color: var(--text-color);
   text-decoration: none;
-  margin-left: 50%;
 }
 
 /*front-page*/
@@ -95,20 +103,19 @@ Footer{
 }
 
 .divimage {
-
-}
-
-.feuille {
-
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .canette {
-
   z-index: 2;
-}
-
-.feuille2 {
-
+  position: absolute;
+  left: 33%;
+  top: -100px;
 }
 
 .h2plant {
@@ -126,8 +133,8 @@ Footer{
   color: var(--text-color);
   text-align: center;
   font-size: 20px;
+  margin: 0 auto;
   margin-bottom: 80px;
-  margin-left: 37%;
   margin-top: 30px;
   width: 25%;
 }
@@ -136,6 +143,7 @@ Footer{
   background: var(--background-color);
    border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
+  padding-bottom: 2rem;
 
 }
 
@@ -161,8 +169,9 @@ Footer{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 58px;
-    margin-left: 32%;
-    margin-top: 50px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
   }
 
   .fraise {
@@ -249,6 +258,10 @@ Footer{
     text-align: center;
     font-size: 15px;
     cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2rem;
   }
 
   .buttongouts:hover{
@@ -271,7 +284,9 @@ Footer{
   }
 
   .h3avis {
-
+    color: #3B8E46;
+    font-size: 30px;
+    font-weight: 700;
   }
 
   .divavis2{
@@ -279,7 +294,9 @@ Footer{
   }
 
   .h3avis2 {
-
+    color: #3B8E46;
+    font-size: 30px;
+    font-weight: 700;
   }
   
   .divavis3{
@@ -287,7 +304,9 @@ Footer{
   }
 
   .h3avis3 {
-
+    color: #3B8E46;
+    font-size: 30px;
+    font-weight: 700;
   }
 
   /*canette*/

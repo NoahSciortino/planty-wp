@@ -104,7 +104,7 @@ Avec son goût frais et fruité, retrouvez votre
 <div class=divavis>
 <h2 class=h2avis>CE QU’ILS EN PENSENT</h2>
 <div class=divavis1>
-<img src="/assets/images/fatiha.png" alt="Fatiha" />
+<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fatiha.png" alt="Fatiha" />
     <h3 class=h3avis>Fatiha</h3>
     <p>La meilleure boisson énergisante disponible sur le marché !</p>
 </div>
