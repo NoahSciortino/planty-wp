@@ -13,7 +13,7 @@
       <div id="wrapper" class="hfeed">
       <header id="header" role="banner">
          <div id="branding">
-            <div id="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+            <div class="logo" id="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
                <img src="<?php echo  get_stylesheet_directory_uri();?>/assets/images/logo.svg" alt="logo"/>
             </div>
             <div id="site-description"<?php if ( !is_single() ) { echo ' itemprop="description"'; } ?>><?php bloginfo( 'description' ); ?></div>
@@ -21,7 +21,9 @@
          <nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
             <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
          </nav>
-         <a class="Hbutton" href="<?php echo home_url("/"); ?>/commander/">Commander</a>
+         <form action="<?php echo home_url("/"); ?>/commander/">
+         <button class="Hbutton" type="submit">Commander</a>
+         </form>
       </header>
       <div id="container">
         <main id="content" role="main">

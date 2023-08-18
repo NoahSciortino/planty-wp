@@ -13,7 +13,7 @@
       display: flex;
       justify-content: center;
       font-family: 'Syne', sans-serif;
-      background: var(--background-color);
+      background: var(--background-white-color);
   }
 
   /*header*/
@@ -45,6 +45,11 @@
     flex-shrink: 0;
   }
 
+  #menu-header-menu li{
+    display: inline-block;
+    padding: 10px 30px;
+  }
+
   /*Header button*/
   
   .Hbutton {
@@ -52,7 +57,7 @@
   height: 80px;
   flex-shrink: 0;
   background: var(--button-color);
-  color: #FFF;
+  color: var(--background-white-color);
   text-align: center;
   font-family: Syne;
   font-size: 16px;
@@ -133,21 +138,206 @@ Footer{
 }
 
 /*front-page*/
-h1{
-color: var(--main-color);
-text-align: center;
-font-family: Syne;
-font-size: 38px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-transform: uppercase;
-}
 
 .accueil{
-  width: 1307px;
-  height: 950px;
+  width: 1440px;
+  height: 594px;
   flex-shrink: 0;
   display: flex;
-  margin-top: 83px;
+  background: var(--background-color);
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  box-shadow: 0px 10px 0px #E3D9D0
+
 }
+
+.h1title {
+  position: relative;
+  top: 85px;
+  left: 300px;
+  color: var(--main-color);
+  text-align: center;
+  font-family: Syne;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.feuille {
+  position: relative;
+  right: 314px;
+  top: 192px;
+}
+
+.canette {
+  position: relative;
+  right: 419px;
+  top: 70px;
+  z-index: 2;
+}
+
+.feuille2 {
+  position: relative;
+  right: 535px;
+  top: 185px;
+}
+
+.h2plant {
+  color: var(--main-color);
+  text-align: center;
+  font-family: Syne;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 55px;
+}
+
+.txt {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Syne;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 382px;
+  position: relative;
+  left: 520px;
+  margin-top: 47px;
+  margin-bottom: 55px;
+}
+
+.divgouts {
+  width: 1440px;
+  height: 594px;
+  flex-shrink: 0;
+  display: flex;
+  background: var(--background-color);
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.titlegouts {
+  color: #D2776A;
+  text-align: center;
+  font-family: Syne;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  position: relative;
+  top: 57px;
+  left: 576px;
+  }
+
+  .txtgouts {
+  color: var(--text-color);
+  text-align: center;
+  font-family: Syne;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: 101px;
+  left: 171px;
+  }
+
+  .buttongouts {
+  display: flex;
+  width: 198px;
+  height: 55px;
+  padding: 9px 57px 9px 56px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #E0B9B4;
+  box-shadow: 0px 0px 0px;
+  color: var(--background-white-color);
+  border:0px;
+  text-align: center;
+  font-family: Syne;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  position: relative;
+  top: 485px;
+  right: 200px;
+  cursor: pointer;
+  }
+
+  .buttongouts:hover{
+    background: var(--button-color-hover);
+  }
+
+  .divavis{
+  width: 1440px;
+  height: 638px;
+  }
+
+  .h2avis {
+  color: var(--main-color);
+  text-align: center;
+  font-family: Syne;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  position: relative;
+  top: 133px;
+
+  }
+
+  .h3avis {
+    color: var(--main-color);
+    text-align: center;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: 271px;
+    right: 420px;
+  }
+
+  .h3avis2 {
+    color: var(--main-color);
+    text-align: center;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: 234px;
+    right: 0px;
+  }
+
+  .h3avis3 {
+    color: var(--main-color);
+    text-align: center;
+    font-family: Syne;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: 200px;
+    left: 410px;
+  }
+
+  /*canette*/
+  #footercans {
+    background-image: url("../images/cans.png");
+    height: 200px;
+    background-repeat: repeat-x;
+  }
+  

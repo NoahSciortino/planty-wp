@@ -1,1 +1,1 @@
-canette
+<div id="footercans"></div>
