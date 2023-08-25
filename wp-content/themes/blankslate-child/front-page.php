@@ -2,7 +2,7 @@
 <?php include "header.php";?>
 <main>
 <div class="accueil">
- <h1 class=h1title >BOISSON ÉNERGISANTE 100% naturelle</h1>
+ <h1>BOISSON ÉNERGISANTE 100% naturelle</h1>
  <div class="divimage">
  <svg class=feuille width="350" height="401" viewBox="0 0 350 401" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M239.339 330.288C226.497 319.911 222.873 307.308 222.63 302.197C227.176 299.856 239.847 296.787 255.256 302.72C270.853 308.726 272.864 323.79 271.939 330.655C266.455 334.89 252.34 340.793 239.339 330.288Z" fill="#3B8E46"/>

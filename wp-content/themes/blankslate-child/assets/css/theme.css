@@ -114,7 +114,7 @@ footer{
 
 }
 
-.h1title {
+h1 {
   color: var(--main-color);
   text-transform: uppercase;
   font-weight: 800;
@@ -290,9 +290,6 @@ footer{
     background: var(--button-color-hover);
   }
 
-  .divavis{
-  }
-
   .h2avis {
     margin-top: 133px;
     color: var(--main-color);
@@ -364,8 +361,8 @@ footer{
 
   /*canette*/
   #footercans {
-    background-image: url("../images/cans.png");
-    height: 200px;
+    background:var(--background-color) url("../images/cans.png");
+    height: 131px;
     background-repeat: repeat-x;
   }
 
@@ -376,8 +373,8 @@ footer{
     border-bottom-right-radius: 25%;
     }
 
-    .h1p2 {
-      padding-top: 180px;
+    .rose {
+      color: #d2776a;
     }
 
     .p-p2{
@@ -401,6 +398,45 @@ footer{
 
     .contact {
       background: var(--background-color);
-      text-align: center;
     }
 
+    form.wpcf7-form input,form.wpcf7-form textarea {
+      border-radius: 7px;
+      background: #FFF;
+      box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
+          border:none;
+          padding:1em;
+          margin-bottom:1.5em;
+          margin-top: 0.5em;
+          width: 100%;
+      }
+
+      form.wpcf7-form {
+        margin: 0 auto;
+        display: block;
+        width: 20%;
+    }
+
+
+  form.wpcf7-form input[type="submit"]{
+    width: 53%;
+    background: var(--button-color);
+    text-align: center;
+    color: var(--background-white-color);
+    margin: 0 auto;
+    display: block;
+  }
+
+  .h3p2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 18px
+  }
+
+  .wp-block-group__inner-container{
+    display:flex;
+  }
+
+  body.home #footercans {
+    background-color:var(--background-white-color);
+}
