@@ -103,18 +103,28 @@ Avec son goût frais et fruité, retrouvez votre
 </div>
 <div class=divavis>
 <h2 class=h2avis>CE QU’ILS EN PENSENT</h2>
+<div class=divflex>
 <div class=divavis1>
-<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fatiha.png" alt="Fatiha" />
+    <img class=imgfatiha src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fatiha.png" alt="Fatiha" />
+    <div class=divtext>
     <h3 class=h3avis>Fatiha</h3>
-    <p>La meilleure boisson énergisante disponible sur le marché !</p>
+    <p class=pavis>La meilleure boisson énergisante disponible sur le marché !</p>
+    </div>
 </div>
 <div class=divavis2>
+    <img class=imgvero src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Véro.png" alt="vero" />
+    <div class=divtext>
     <h3 class=h3avis2>Véro</h3>
-    <p>Frais & fruité c’est parfait pour accompagner le goûter.</p>
+    <p class=pavis>Frais & fruité c’est parfait pour accompagner le goûter.</p>
+</div>
 </div>
 <div class=divavis3>
+    <img class=imgmarc src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Marc.png" alt="marc" />
+    <div class=divtext>
     <h3 class=h3avis3>Marc</h3>
-    <p>Un boost d’énergie sans produits chimiques, un vrai plus dans ma journée.</p>
+    <p class=pavis>Un boost d’énergie sans produits chimiques, un vrai plus dans ma journée.</p>
+    </div>
+</div>
 </div>
 </div>
 

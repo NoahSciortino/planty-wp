@@ -22,7 +22,9 @@
             <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'link_before' => '<span itemprop="name">', 'link_after' => '</span>' ) ); ?>
          </nav>
          <div class="commander">
-         <a href="<?php echo home_url("/"); ?>/commander/">Commander</a>
+            <div class=boutton>
+         <a class=lienbutton href="<?php echo home_url("/"); ?>/commander/">Commander</a>
+</div>
 </div>
       </header>
       <div id="container">
