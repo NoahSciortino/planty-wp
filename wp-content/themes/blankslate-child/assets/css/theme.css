@@ -94,9 +94,11 @@ header {
 }
 
 /*Footer*/
-footer{
+footer {
   background: var(--background-white-color);
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .footertxt{
@@ -375,6 +377,8 @@ h1 {
 
     .rose {
       color: #d2776a;
+      padding-right: 28%;
+      padding-top: 130px;
     }
 
     .p-p2{
@@ -392,9 +396,6 @@ h1 {
       display: flex;
     }
 
-    .group{
-      display: flex;
-    }
 
     .contact {
       background: var(--background-color);
@@ -411,10 +412,11 @@ h1 {
           width: 100%;
       }
 
-      form.wpcf7-form {
+      .contact .wp-block-group__inner-container {
         margin: 0 auto;
         display: block;
         width: 20%;
+        position: relative;
     }
 
 
@@ -430,13 +432,69 @@ h1 {
   .h3p2 {
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 18px
-  }
-
-  .wp-block-group__inner-container{
-    display:flex;
+    padding-bottom: 18px;
   }
 
   body.home #footercans {
     background-color:var(--background-white-color);
 }
+
+.icone1 {
+  margin-top: 50px;
+  margin-left: 22%;
+  width: 7%;
+  float: left;
+}
+
+.icone2 {
+
+}
+
+.feuilleform {
+  position: absolute;
+  left: -100px;
+  bottom: 0%;
+  z-index: 1;
+}
+
+.contact .form {
+  z-index: 2;
+  position: relative;
+}
+
+.textp2 {
+  font-size: 30px;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.equipe .wp-block-group__inner-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*commander*/
+.page3{
+  background-color: var(--main-color);
+  
+}
+
+.h1p3{
+  color: var(--background-white-color);
+}
+
+.h2p3 {
+  color: var(--background-white-color);
+  margin-left: 25%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.line{
+  width: 50%;
+}
+
+.commandegout{
+  display: flex;
+}
+
