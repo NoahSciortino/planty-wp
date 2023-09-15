@@ -9,9 +9,10 @@
   }
   
   body {
-      font-family: Syne;
-      background: var(--background-white-color);
+    font-family: Syne;
+    background: var(--background-white-color);
     width: auto;
+    line-height: initial;
   }
 
   /*header*/
@@ -159,7 +160,7 @@ h1 {
   margin: 0 auto;
   margin-bottom: 80px;
   margin-top: 30px;
-  width: 25%;
+  width: 29%;
 }
 
 .divgouts {
@@ -178,6 +179,7 @@ h1 {
   font-weight: 800;
   padding-top: 58px;
   text-transform: uppercase;
+  margin-bottom: 7px;
   }
 
   .txtgouts {
@@ -195,13 +197,16 @@ h1 {
     width: 60%;
     margin: 0 auto;
     margin-top: 2rem;
-    margin-left: 28%;
+  }
+
+  .gout {
+    width: calc(50% - 58px);
+    height: 262px;
+    background-size: cover;
   }
 
   .fraise {
     background-image: url("../images/fraise.png");
-    width: 393px;
-    height: 262px;
   }
 
   .fraisetxt{
@@ -214,8 +219,6 @@ h1 {
 
   .pamplemousse {
     background-image: url("../images/pamplemousse.png");
-    width: 393px;
-    height: 262px;
   }
 
   .pamplemoussetxt{
@@ -237,8 +240,6 @@ h1 {
 
   .framboise {
     background-image: url("../images/framboise.png");
-    width: 393px;
-    height: 262px;
   }
  
   .framboisetxt{
@@ -260,8 +261,6 @@ h1 {
 
   .citron {
     background-image: url("../images/citron.png");
-    width: 393px;
-    height: 262px;
   }
 
   .citrontxt{
@@ -274,7 +273,7 @@ h1 {
   }
 
   .buttongouts {
-    padding: 15px 50px 15px 56px;
+    padding: 23px 60px 23px 60px;
     border-radius: 5px;
     background: #E0B9B4;
     box-shadow: 0px 0px 0px;
@@ -286,6 +285,7 @@ h1 {
     width: fit-content;
     margin: 0 auto;
     margin-top: 2rem;
+    margin-bottom: 29px;
   }
 
   .buttongouts:hover{
@@ -299,24 +299,24 @@ h1 {
     font-size: 30px;
     font-style: normal;
     font-weight: 800;
-  }
-  .divavis1{
-    width: 30%;
-    display: flex
+    margin-bottom: 102px;
   }
 
-  .imgfatiha {
-    width: 30%;
+  .imgp {
+    width: auto;
+    height: 200px;
   }
 
   .h3avis {
     color: #3B8E46;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 11px;
   }
 
   .pavis{
     padding-top: 5px;
+    width: 50%;
   }
 
   .divflex{
@@ -330,36 +330,12 @@ h1 {
     padding-top: 30px;
     margin-left: 30px;
   }
-
-  .divavis2{
-    width: 30%;
-    display: flex
-  }
-
-  .imgvero {
-    width: 30%;
-  }
-
-  .h3avis2 {
-    color: #3B8E46;
-    font-size: 30px;
-    font-weight: 700;
-  }
   
-  .divavis3{
+  .divavis1{
     width: 30%;
     display: flex
   }
 
-  .imgmarc {
-    width: 30%;
-  }
-
-  .h3avis3 {
-    color: #3B8E46;
-    font-size: 30px;
-    font-weight: 700;
-  }
 
   /*canette*/
   #footercans {
@@ -377,19 +353,23 @@ h1 {
 
     .rose {
       color: #d2776a;
-      padding-right: 28%;
+     text-align: center;
       padding-top: 130px;
     }
 
     .p-p2{
       padding-bottom: 89px;
-      width: 30%;
       margin: 0 auto;
-      margin-top: 15px;
+      margin-top: 27px;
+      text-align: center;
+      font-size: 20px;
+      line-height: normal;
+      width: 37%;
     }
 
     .h2p2 {
-      margin-top: 30px;
+      margin-top: 60px;
+      margin-bottom: 60px;
     }
 
     .equipe{
@@ -401,12 +381,12 @@ h1 {
       background: var(--background-color);
     }
 
-    form.wpcf7-form input,form.wpcf7-form textarea {
+    #wpcf7-f54-o1 form.wpcf7-form input,form.wpcf7-form textarea {
       border-radius: 7px;
-      background: #FFF;
+      background: var(--background-white-color);
       box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.04);
           border:none;
-          padding:1em;
+          padding:2em;
           margin-bottom:1.5em;
           margin-top: 0.5em;
           width: 100%;
@@ -420,13 +400,17 @@ h1 {
     }
 
 
-  form.wpcf7-form input[type="submit"]{
-    width: 53%;
-    background: var(--button-color);
+  #wpcf7-f54-o1 form.wpcf7-form input[type="submit"]{
+    width: 55%;
+    background: #E0B9B4;
     text-align: center;
     color: var(--background-white-color);
     margin: 0 auto;
     display: block;
+    padding: 20px 59px 20px 59px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 25px;
   }
 
   .h3p2 {
@@ -446,14 +430,10 @@ h1 {
   float: left;
 }
 
-.icone2 {
-
-}
-
 .feuilleform {
   position: absolute;
-  left: -100px;
-  bottom: 0%;
+  left: -82px;
+  bottom: 11%;
   z-index: 1;
 }
 
@@ -468,33 +448,223 @@ h1 {
   font-weight: bold;
 }
 
-.equipe .wp-block-group__inner-container {
+.equipe > .wp-block-group__inner-container {
   display: flex;
   justify-content: center;
+  gap: 200px;
+}
+
+.equipeh2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.equipep {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.contacttext {
+  font-size: 20px;
 }
 
 /*commander*/
-.page3{
-  background-color: var(--main-color);
-  
-}
 
 .h1p3{
   color: var(--background-white-color);
+  margin-bottom: 70px;
 }
 
 .h2p3 {
   color: var(--background-white-color);
-  margin-left: 25%;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
 .line{
-  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .commandegout{
   display: flex;
+  gap: 26px;
 }
 
+.fruit {
+  width: 192px;
+  height: 128px;
+}
+
+.fraisep3{
+  background-image: url("../images/fraise.png");
+  background-repeat: round;
+}
+
+.pamplemoussep3{
+  background-image: url("../images/pamplemousse.png");
+  background-repeat: round;
+}
+
+.framboisep3{
+  background-image: url("../images/framboise.png");
+  background-repeat: round;
+}
+
+.citronp3{
+  background-image: url("../images/citron.png");
+  background-repeat: round;
+}
+
+.pfruit{
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.formh2 {
+  color: var(--background-white-color);
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.feuilleSousForm{
+  width: 10%;
+  margin-left: 85%;
+}
+
+#orderform {
+  display: flex;
+}
+
+#orderpage {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+body.page-template-commander-page {
+  background-color: var(--main-color);
+}
+
+#orderform .orderform-col1 , #orderform .orderform-col2{
+  width: 50%;
+  }
+
+  #orderform input {
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    padding: 2em;
+}
+
+#orderform .orderform-col2 {
+  border-left: 1px solid white;
+  padding-left: 2rem ;
+}
+
+#orderform .orderform-col1{
+  padding-right: 2rem;
+}
+
+#orderform label {
+  color: var(--background-white-color);
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.buttonfruit {
+  background-color: var(--background-white-color);
+  margin-top: 62px;
+  width: 24%;
+  padding-bottom: 16px;
+  border-radius: 5px 0 0 5px;
+}
+
+.chiffrefruit {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.flexdivfruit {
+  display: flex;
+}
+
+.fruitcourt {
+  padding-top: 25px;
+}
+
+
+.divbuttonfruit {
+  display: flex;
+  flex-direction: column;
+  margin-top: 62px;
+  width: 18%;
+  margin-right: 11px;
+}
+
+.borderfruit{
+  border-bottom: 1px solid white;
+}
+
+.divplusetmoins {
+  background: #DC9F96;
+  text-align: center;
+  width: 78%;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
+.divplusetmoins p {
+  color: var(--background-white-color);
+}
+
+.divplus {
+  border-radius: 0 5px 0 0;
+}
+
+.divmoins {
+  border-radius: 0 0 5px 0;
+}
+
+.linemargin {
+  margin-top: 120px;
+}
+
+.buttonok {
+  background: #E0B9B4;
+  margin-top: 62px;
+  width: 52%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.buttonok p {
+  color: var(--background-white-color);
+  margin-top: 20px;
+}
+
+input.submitform {
+  padding: 20px 60px 20px 60px;
+  border-radius: 5px;
+  background: #E0B9B4;
+  box-shadow: 0px 0px 0px;
+  color: var(--background-white-color);
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 45px;
+  margin-bottom: 90px;
+  border: transparent;
+}

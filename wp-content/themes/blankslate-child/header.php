@@ -14,7 +14,9 @@
       <header id="header" role="banner">
          <div id="branding">
             <div class="logo" id="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+               <a href="../">
                <img src="<?php echo  get_stylesheet_directory_uri();?>/assets/images/logo.svg" alt="logo"/>
+               </a>
             </div>
             <div id="site-description"<?php if ( !is_single() ) { echo ' itemprop="description"'; } ?>><?php bloginfo( 'description' ); ?></div>
          </div>
