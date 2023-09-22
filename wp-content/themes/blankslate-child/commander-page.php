@@ -7,9 +7,9 @@
     <div class="commandegout">
         <div class="fruit fraisep3">
             <p class="pfruit">Fraise<p>
-            <div class="flexdivfruit fruitcourt"  >
+            <div class="flexdivfruit fruitcourt" >
                 <div class="buttonfruit">
-                    <p class="chiffrefruit"=>0</p>
+                    <p class="chiffrefruit">0</p>
                 </div>
                 <div class="divbuttonfruit">
                     <div class="divplusetmoins borderfruit divplus">
@@ -29,7 +29,7 @@
             <p class="pfruit">pample<br>mousse<p>
             <div class="flexdivfruit">
                 <div class="buttonfruit">
-                    <p class="chiffrefruit"=>0</p>
+                    <p class="chiffrefruit">0</p>
                 </div>
                 <div class="divbuttonfruit">
                     <div class="divplusetmoins borderfruit divplus">
@@ -48,7 +48,7 @@
             <p class="pfruit">fram<br>boise<p>
             <div class="flexdivfruit ">
                 <div class="buttonfruit">
-                    <p class="chiffrefruit"=>0</p>
+                    <p class="chiffrefruit">0</p>
                 </div>
                 <div class="divbuttonfruit">
                     <div class="divplusetmoins borderfruit divplus">
@@ -67,7 +67,7 @@
             <p class="pfruit">citron<p>
             <div class="flexdivfruit fruitcourt" >
                 <div class="buttonfruit">
-                    <p class="chiffrefruit"=>0</p>
+                    <p class="chiffrefruit">0</p>
                 </div>
                 <div class="divbuttonfruit">
                     <div class="divplusetmoins borderfruit divplus">
